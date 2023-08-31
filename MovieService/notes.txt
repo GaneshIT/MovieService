@@ -37,4 +37,8 @@ Command 2:
 	-> update-database
 
 
+	const            int a=10
+	readonly
+
+
 
