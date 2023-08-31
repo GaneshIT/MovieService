@@ -1,0 +1,40 @@
+﻿ASP.NET CORE WEB API - REST api
+	->To create rest api's
+	->lightweight API's
+	->it will support in all the devices and platforms
+	->http and https protocol support
+
+.NET core EntityFramework
+	->Connect database and 
+	->make CRUD(create,read,update and Delete) operatoins
+	->Dependency injection design pattern support
+	->Repository design pattern support
+	->Easy to maintain 
+	->Easy to test
+	->EntityFramework->ORM(Object Relation Mapping)
+
+EntityFramework Core setup:
+
+step 1: create models
+step 2: create dbcontext file
+step 3: setup dbset<modelname>
+step 4: install EntityFramework core packages
+		package 1:EntityFrameworkCore
+		package 2:EntityFrameworkCore.sqlserver
+		package 3:EntityFrameworkCore.Tools
+step 5: configure database 
+		connection string in appsetting.json file
+step 6: configure dbcontext in .net core middleware
+
+How to generate Database and Tables from entityframework
+
+Excute commands: Go to Tools menu->select nuget package->console
+
+Command 1:
+	-> add-migration migrationname
+	 note: migrationname can be anything
+Command 2: 
+	-> update-database
+
+
+
