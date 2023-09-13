@@ -13,5 +13,7 @@ namespace MovieEntity
         {
         }
         public DbSet<MovieModel> movie { get; set; }
+        public DbSet<BookingModel> booking { get; set; }
+        public DbSet<UserModel> user { get; set; }
     }
 }

@@ -40,5 +40,19 @@ Command 2:
 	const            int a=10
 	readonly
 
+Design Patterns:
+	-> Software design patterns
+
+1. DI pattern
+	->Converting from tight coupling to loosely coupling
+
+2. Repository pattern
+	->Mapping domain project with data-access project
+	->Easy to unit test
+	->Portable
+
+3. Solid Designs
+	->To maintain better code
+	->Easy to modify existing without affect other functionalities
 
 
